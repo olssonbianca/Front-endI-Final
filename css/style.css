@@ -365,6 +365,12 @@ footer{
 }
 
 @media  (max-width:376px){
+    body{
+        background-image: url('../assets/fondo-mobile.png');
+        background-repeat: no-repeat;
+        background-position:top;
+        background-position-x: right;
+    }
 
     /*Barra de navegación*/
 
@@ -489,14 +495,16 @@ footer{
         align-items: center;
         justify-content: center;
         text-align: center;       
-        background-color: #F3603B;
+        background-image: url('../assets/fondocolormobile.png');
+        background-size: cover;
+        background-repeat: no-repeat;
         height: 330px;
     }
     h3{
         width: 300px;
         margin-bottom: 30px;
     }
-    /*pre-footer*/
+    /*footer*/
     footer{
         flex-direction: column-reverse;
         width: 100%;
