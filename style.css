@@ -11,7 +11,7 @@
 /*Barra de navegación*/
 
 body{
-    background-image: url('../assets/fondo-final.png');
+    background-image: url('assets/fondo-final.png');
     background-repeat: no-repeat;
     background-position:top;
 }
@@ -252,7 +252,7 @@ h6{
     padding: 0px 165px;
     align-items: center;
     justify-content: space-between;
-    background-image: url('../assets/fondocolor.png');
+    background-image: url('assets/fondocolor.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -366,7 +366,7 @@ footer{
 
 @media  (max-width:376px){
     body{
-        background-image: url('../assets/fondo-mobile.png');
+        background-image: url('assets/fondo-mobile.png');
         background-repeat: no-repeat;
         background-position:top;
         background-position-x: right;
@@ -495,7 +495,7 @@ footer{
         align-items: center;
         justify-content: center;
         text-align: center;       
-        background-image: url('../assets/fondocolormobile.png');
+        background-image: url('assets/fondocolormobile.png');
         background-size: cover;
         background-repeat: no-repeat;
         height: 330px;
